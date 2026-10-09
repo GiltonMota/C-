@@ -37,5 +37,5 @@ else if(total == 7)
 }
 else
 {
-    Console.WriteLine("You win a kitten!");
+    Console.WriteLine("You win a 'Congrats'!");
 }
