@@ -1,0 +1,1 @@
+Estruturas de decisão if, else, elseif e operadores booleanos, And e Or.
