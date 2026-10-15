@@ -72,8 +72,8 @@ for(int i = 1; i <= 9; i++)
 
 
 //calcular média usando laço de repetição "for" e classe "List"
-/*
-List<int> numerosMedia = new List<int>();
+
+/*List<int> numerosMedia = new List<int>();
    
    int soma = 0;
    Console.WriteLine("Vamos tirar a média de quatro números!");
@@ -95,10 +95,10 @@ Console.Write("A média dos números: ");
 Console.Write(string.Join(", ", numerosMedia));
 Console.Write($" é {media}");
 
-//opção de saída 2: 
+/*opção de saída 2: 
 Console.Write($"A média dos números: {numerosMedia[0]}, {numerosMedia[1]}, {numerosMedia[2]}, {numerosMedia[3]} é {media}");
    
-   */
+
 
 
 //IMPRIMIR APENAS NÚMEROS ÍMPARES
@@ -112,6 +112,20 @@ for(impar = 1; impar <= 99; impar++)
     }
     else{};
 }*/
+
+// Multiplo de 3 ou 7
+
+
+Console.WriteLine("Digite um número inteiro: ");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num % 3 == 0 || num % 7 == 0)
+{
+    Console.WriteLine("Verdadeiro");
+}
+else
+{
+    Console.WriteLine("falso");
+}
 
 
 
