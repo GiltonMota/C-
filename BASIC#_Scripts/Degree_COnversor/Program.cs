@@ -6,7 +6,7 @@ decimal Celsius = (Fahren - 32) * 5 / 9;
 decimal Kelvin = Celsius + 273;
 // Display the result
 Console.WriteLine($@"{Fahren}°F is {Celsius:0.0}°C");
-Console.WriteLine($@"{Celsius:0.0}°C is {Kelvin:0.0}K");
+Console.WriteLine($@"{Celsius:F2}°C is {Kelvin:0.0}K");
 if(Celsius < 20 && Celsius > 15)
 {
     Console.WriteLine("It´s getting cold!");
