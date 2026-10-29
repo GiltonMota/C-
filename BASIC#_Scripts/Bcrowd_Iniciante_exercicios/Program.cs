@@ -236,21 +236,33 @@ double distancia = tempoGasto * velocidadMedia;
 double gasolina = distancia / 12;
 Console.WriteLine($"{gasolina:F3}");*/
 
-//CÉDULAS
+//DECOMPONDO VALORES EM CÉDULAS
+/*
+ int N = Convert.ToInt32(Console.ReadLine());
+ int valor = N;
+ int notas100 = valor / 100;
+ valor %= 100; //VARIÁVEL VALOR RECEBENDO O RESTO DAS DIVISOES 
+ int notas50 = valor / 50;
+ valor %= 50;
+ int notas20 = valor / 20;
+ valor %= 20;
+ int notas10 = valor / 10;
+ valor %= 10;
+ int notas5 = valor / 5;
+ valor %= 5;
+ int notas2 = valor / 2;
+ valor %= 2;
+ int notas1 = valor / 1; 
 
- int valor = Convert.ToInt32(Console.ReadLine());
- int[] cedulas  = {100, 50, 20, 10, 5, 2, 1};
- foreach (int nota in cedulas)
-{
-    if(valor > 0 & valor < 1000000)
-    {
-      valor = nota / cedulas[0];
-      Console.WriteLine($"{valor} nota(s) de R$100,00");
-       
-    }
-    else
-    {
-        Console.WriteLine("Entrada inválida!");
-    }
-}
+ Console.WriteLine($"{N}");
+ Console.WriteLine($"{notas100} nota(s) de R$ 100,00");
+ Console.WriteLine($"{notas50} nota(s) de R$ 50,00");
+ Console.WriteLine($"{notas20} nota(s) de R$ 20,00");
+ Console.WriteLine($"{notas10} nota(s) de R$ 10,00");
+ Console.WriteLine($"{notas5} nota(s) de R$ 5,00");
+ Console.WriteLine($"{notas2} nota(s) de R$ 2,00");
+ Console.WriteLine($"{notas1} nota(s) de R$ 1,00");
+ */
+
+   
 
